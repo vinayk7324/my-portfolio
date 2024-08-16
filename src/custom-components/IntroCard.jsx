@@ -44,7 +44,7 @@ const IntroCard = () => {
         </span>
 
         <div className="">
-            <Button containerClassName={"w-60 h-10 "} className=' space-x-2 bg-black text-[18px] flex items-center space-x-2 border px-4 py-2 twitter-text rounded-lg font-bold'>
+            <Button containerClassName={"w-42 h-10 "} className=' space-x-2 bg-black text-[18px] flex items-center space-x-2 border px-4 py-2 twitter-text rounded-lg font-bold'>
                 <span className=' text-yellow-500 text-[12px]'>Download Resume</span>
                  <span className=' dark:text-yellow-500 text-[20px] font-bold text-black '> <MdOutlineFileDownload  /></span>
             </Button>
