@@ -18,8 +18,8 @@ const IntroCard = () => {
             Vinay Kumar
             <div className=' dark:text-neutral-300 font-normal text-[12px]'> @22112115</div>
         </div>
-        <span className='flex flex-col text-center space-y-2 '>
-            <span className=' font-bold text-yellow-500 text-[15px] '> Indian Institute of Technology,Roorkee</span>
+        <span className='flex flex-col text-center space-y-2 px-2 '>
+            <span className=' font-bold text-yellow-500 text-[14px] '> Indian Institute of Technology,Roorkee</span>
           <span className=' text-[12px] '>  BTech(Chemical Engineering)</span>
             <span className=' text-[12px]'>UG (III Year I Semester)</span>
             <span className=' text-[12px]'>CGPA: 6.112/10.000</span>
