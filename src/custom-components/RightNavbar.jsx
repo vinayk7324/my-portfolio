@@ -45,7 +45,7 @@ const RightNavbar = () => {
 
       {
         navArr.map((ele,index)=>(
-          <a key={index} className=' border px-4 py-2 text-yellow-500 ' href={ele.slug}>
+          <a key={index} className=' border px-4 text-sm rounded-md py-2 text-yellow-500 ' href={ele.slug}>
             {ele.title}
 
           </a>

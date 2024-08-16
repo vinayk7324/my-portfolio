@@ -8,16 +8,16 @@ import { IoCodeSlashOutline } from "react-icons/io5";
 const Projects = () => {
   return (
     <div className=" p-2 rounded-xl dark:bg-gray-900 p-4">
-    <div className=" text-xl font-bold flex items-center space-x-2">
+    <div className=" text-lg font-bold flex items-center space-x-2">
         <FaFolder/>
-        <span> My Projects </span>
+        <span className=' '>Projects </span>
 
     </div>
 
     <div className=" py-3 ">
         <div className=" grid grid-cols-2">
             <AnimatedPin pinHref={"https://google.com"} pinTitle={"chat-app.com"}>
-            <div className="flex basis-full flex-col  p-2    tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] ">
+            <div className="flex basis-full flex-col  p-2 space-y-3    tracking-tight text-slate-100/50 sm:basis-1/2 w-[18rem] ">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
             Real Time Chat Application
           </h3>
@@ -30,16 +30,16 @@ const Projects = () => {
           <div className="" >
             <img src={chatApp} alt="" />
           </div>
-         <div className=" pt-2">
+         <div className=" pt-2 flex justify-between">
          <a className="  " href='https://chatgpt.com/c/82d68930-60d4-4cbf-a2ac-8823274386ba'> 
-          <Button containerClassName={" h-12 w-36"} className={" bg-black text-yellow-500 text-lg space-x-2" }>
+          <Button containerClassName={" h-10 w-32"} className={" bg-black text-yellow-500 text-sm space-x-2" }>
           <span>  Code </span>
           <IoCodeSlashOutline />
 
           </Button>
            </a>
          <a className="  " href='https://chatgpt.com/c/82d68930-60d4-4cbf-a2ac-8823274386ba'> 
-          <Button containerClassName={" h-12 w-36 "} className={" bg-black  text-yellow-500 text-lg space-x-2" }>
+          <Button containerClassName={" h-10 w-32 "} className={" bg-black  text-yellow-500 text-sm space-x-2" }>
             Demo
           </Button>
            </a>
@@ -48,7 +48,7 @@ const Projects = () => {
         </div>
             </AnimatedPin>
             <AnimatedPin pinHref={"https://google.com"} pinTitle={"chat-app.com"}>
-            <div className="flex basis-full flex-col  p-2 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] ">
+            <div className="flex basis-full flex-col  space-y-3 p-2 tracking-tight text-slate-100/50 sm:basis-1/2 w-[18rem] ">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
            Twitter Clone
           </h3>
@@ -62,16 +62,16 @@ const Projects = () => {
           <div className="" >
             <img src={chatApp} alt="" />
           </div>
-         <div className=" pt-2">
+         <div className=" pt-2 flex justify-between">
          <a className="  " href='https://chatgpt.com/c/82d68930-60d4-4cbf-a2ac-8823274386ba'> 
-          <Button containerClassName={" h-12 w-36"} className={" bg-black text-yellow-500 text-lg space-x-2" }>
+          <Button containerClassName={" h-10 w-32"} className={" bg-black text-yellow-500 text-sm space-x-2" }>
           <span>  Code </span>
           <IoCodeSlashOutline />
 
           </Button>
            </a>
          <a className="  " href='https://chatgpt.com/c/82d68930-60d4-4cbf-a2ac-8823274386ba'> 
-          <Button containerClassName={" h-12 w-36 "} className={" bg-black  text-yellow-500 text-lg space-x-2" }>
+          <Button containerClassName={" h-10 w-32 "} className={" bg-black  text-yellow-500 text-sm space-x-2" }>
             Demo
           </Button>
            </a>

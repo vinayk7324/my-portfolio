@@ -8,7 +8,7 @@ export function SparklesPreview({
   return (
     <div className=" w-full flex flex-col items-center justify-center overflow-hidden ">
      {children}
-      <div className="w-[40rem] h-40 relative">
+      <div className="w-[30rem] h-28 right-14 relative">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
