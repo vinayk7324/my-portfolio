@@ -4,7 +4,7 @@ import { FaUserGraduate } from "react-icons/fa";
 const Education = () => {
   return (
     <div id='education' className='p-2 rounded-xl dark:bg-gray-900 p-4'>
-    <h1 className=' text-lg font-bold flex items-center space-x-2'> <FaUserGraduate /> <span>Educational Background</span>  </h1>
+    <h1 className=' text-sm font-bold flex items-center space-x-2'> <FaUserGraduate /> <span>Educational Background</span>  </h1>
     <div className=" flex justify-between">
         <div className="  p-2  "> 
             <h2 className='text-sm dark:text-yellow-500'> Indian Institute of Technology Roorkee,Uttarakhand </h2>

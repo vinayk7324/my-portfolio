@@ -27,7 +27,7 @@ const Interest = () => {
     return (
         <div id='interest' className=' p-2 rounded-xl dark:bg-gray-900 p-4'>
             <div className="">
-                <h1 className=' flex items-center text-lg font-bold space-x-2 '><FaGamepad className=' text-xl' /> <span> Area of interest </span>  </h1>
+                <h1 className=' flex items-center text-sm font-bold space-x-2 '><FaGamepad className=' text-xl' /> <span> Area of interest </span>  </h1>
             </div>
             <div className=" grid grid-cols-3 gap-2 p-4">
                 {
@@ -36,12 +36,12 @@ const Interest = () => {
                              
                             <div className="   bg-black rounded-2xl space-y-4 flex items-center justify-center flex-col p-2 py-4">
                                 <div className=" border-[2px] w-fit p-2 rounded-full  ">
-                                    <ele.icon className=' text-2xl' />
+                                    <ele.icon className=' text-xl' />
 
 
                                 </div>
-                                <div className=" text-lg font-bold text-yellow-500">{ele.title} </div>
-                                <div className=" text-sm "> Developing Experience: {ele.experience} Years </div>
+                                <div className=" text-sm font-bold text-yellow-500">{ele.title} </div>
+                                <div className=" text-[12px] "> Developing Experience: {ele.experience} Years </div>
                             </div>
                       
                         </BackgroundGradient>

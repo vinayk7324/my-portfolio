@@ -13,17 +13,17 @@ const Introduction = () => {
        <div className="  flex flex-col text-center justify-center font-bold   ">
         
            <SparklesPreview >
-            <span className=' text-[12px] first-letter:text-2xl '>Hi,Myself <span className='text-sm font-semibold text-yellow-500'> Vinay Kumar.</span></span>
+            <span className=' text-[14px] first-letter:text-xl '>Hi,Myself <span className='text-sm font-semibold text-yellow-500'> Vinay Kumar.</span></span>
             <span> I'm a  </span>
            <h1 className=" text-3xl lg:text-2xl font-bold text-center text-white relative z-20">
         Software Developer.
             </h1>
            </SparklesPreview>
            <div className=" space-x-3">
-           <Button containerClassName={" w-48 h-12 "} className={" text-[12px] space-x-2 dark:bg-black text-yellow-500  "}>
+           <Button containerClassName={" w-44 h-10 "} className={" text-[12px] space-x-2 dark:bg-black text-yellow-500  "}>
            <span>  My Work </span> <FaArrowTrendUp className='  text-[12px] dark:text-yellow-500' />
            </Button>
-           <Button containerClassName={" w-44 h-12 "} className={"  text-[12px] space-x-2 dark:bg-black text-yellow-500  "}>
+           <Button containerClassName={" w-44 h-10 "} className={"  text-[12px] space-x-2 dark:bg-black text-yellow-500  "}>
            <span>  Hire Me </span> <FaArrowTrendUp className='  text-[12px] dark:text-yellow-500' />
            </Button>
            

@@ -8,7 +8,7 @@ import { IoCodeSlashOutline } from "react-icons/io5";
 const Projects = () => {
   return (
     <div className=" p-2 rounded-xl dark:bg-gray-900 p-4">
-    <div className=" text-lg font-bold flex items-center space-x-2">
+    <div className=" text-sm font-bold flex items-center space-x-2">
         <FaFolder/>
         <span className=' '>Projects </span>
 
@@ -18,10 +18,10 @@ const Projects = () => {
         <div className=" grid grid-cols-2">
             <AnimatedPin pinHref={"https://google.com"} pinTitle={"chat-app.com"}>
             <div className="flex basis-full flex-col  p-2 space-y-3    tracking-tight text-slate-100/50 sm:basis-1/2 w-[18rem] ">
-          <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+          <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-[16px] text-slate-100">
             Real Time Chat Application
           </h3>
-          <div className="text-base !m-0 !p-0 font-normal ">
+          <div className="text-[12px] !m-0 !p-0 font-normal ">
             <span className="">
               User Friendly & Fully Responsive website made with React.js Node.js Express.js MongoDB.
 
@@ -49,10 +49,10 @@ const Projects = () => {
             </AnimatedPin>
             <AnimatedPin pinHref={"https://google.com"} pinTitle={"chat-app.com"}>
             <div className="flex basis-full flex-col  space-y-3 p-2 tracking-tight text-slate-100/50 sm:basis-1/2 w-[18rem] ">
-          <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+          <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-[16px] text-slate-100">
            Twitter Clone
           </h3>
-          <div className="text-base !m-0 !p-0 font-normal ">
+          <div className="text-[14px] !m-0 !p-0 font-normal ">
             <span className="">
               User Friendly & Fully Responsive website made with React.js Node.js Express.js MongoDB.
               I am still <span className='  text-white bg-red-500 px-2 '> working</span>
