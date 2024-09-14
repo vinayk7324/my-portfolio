@@ -4,6 +4,7 @@ import { AnimatedPin } from '../components/AnimatedPin';
 import chatApp from '../assets/chat-app.png'
 import { Button } from '../components/UI/Movingborder';
 import { IoCodeSlashOutline } from "react-icons/io5";
+import twClone from '../assets/twitterClone.png'
 
 const Projects = () => {
   return (
@@ -60,7 +61,7 @@ const Projects = () => {
             </span>
           </div>
           <div className="" >
-            <img src={chatApp} alt="" />
+            <img src={twClone} alt="" />
           </div>
          <div className=" pt-2 flex justify-between">
          <a className="  " href='https://chatgpt.com/c/82d68930-60d4-4cbf-a2ac-8823274386ba'> 
